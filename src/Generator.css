@@ -1,0 +1,46 @@
+.Generator-body {
+  background-color: #002868;
+  min-width: 80px;
+  min-height: 40px;
+  padding: calc(4px + 2vmin);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fffdf7;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+.Generator-button {
+  background-color: #ea4c89;
+  min-height: 5vmin;
+  min-width: 30vmin;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fffdf7;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+}
+
+.Generator-text {
+  font-family: "Gill Sans", Helvetica, Arial, sans-serif;
+  padding: 4px;
+  padding-bottom: 16px;
+  font-size: 32px;
+  font-weight: 1000;
+}

@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+  background-color: #0a2342;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #002868;
+}
+
+.App-logo {
+  height: 30vmin;
+  padding: 4vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fffdf7;
+}
+
+.App-body {
+  min-height: 20vh;
+  min-width: 40vh;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fffdf7;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-bigText {
+  font-size: calc(10px + 5vmin);
+  color: #002868;
+  font-family: "Optima", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  padding: 5vmin;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.gradient {
+  background: linear-gradient(-45deg, #0a2342, #fffdf7, #f46197);
+  background-size: 400% 400%;
+  animation: gradient-bg 20s ease infinite;
+}
+
+@keyframes gradient-bg {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
